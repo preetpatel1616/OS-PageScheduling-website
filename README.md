@@ -18,4 +18,6 @@ A website for understanding the concept of scheduling algorithms in Operating Sy
 
 ### LIVE App
 
+[https://os-pagescheduling.netlify.app](https://os-pagescheduling.netlify.app)
+
 
