@@ -1,23 +1,80 @@
-# OS Page Scheduling Website
+# 🧠 Operating Systems: Page Scheduling Visualizer
 
-### Tech used
+This project is a web-based simulation tool designed to visualize and compare classic page replacement algorithms. Developed as part of my Operating Systems coursework, it provides an interactive learning experience to understand how memory page replacement policies work in operating systems.
 
-* HTML
-* CSS
-* Javascript
-* Netlify
+---
 
-### Project Description
+## 📌 Overview
 
-A website for understanding the concept of scheduling algorithms in Operating System. This site is built with HTML, CSS and Javascript. Several process scheduling algorithms are displayed on the site along with its information and its working. User can input arrival time and burst time and the appropriate Gantt charts are displayed. This enables better visualization and understanding of this concept.
+The simulator allows users to:
+- Input custom page reference strings and frame size.
+- Choose from three page replacement algorithms.
+- Visualize step-by-step how pages are loaded into memory.
+- Track page faults and page hits at each step.
 
-### Instructions
+Supported algorithms:
+- ✅ First-In-First-Out (FIFO)
+- ✅ Least Recently Used (LRU)
+- ✅ Optimal Page Replacement
 
-* Git clone the file.
-* Open the home.html file on your web browser.
+---
 
-### LIVE App
+## 🛠️ Tech Stack
 
-[https://os-pagescheduling.netlify.app](https://os-pagescheduling.netlify.app)
+| **Technology** | **Purpose**                     |
+|----------------|----------------------------------|
+| HTML, CSS      | Structure and styling of UI     |
+| JavaScript     | Implementing scheduling logic   |
+| DOM Manipulation | Real-time UI updates          |
 
+---
 
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/preetpatel1616/OS-PageScheduling-website.git
+```
+
+2. **Navigate to Project Folder**
+```bash
+cd OS-PageScheduling-website
+```
+
+3. **Run the Application**
+- Open the `index.html` file in your browser.
+
+---
+
+## 🎯 Features
+
+- 🔢 Custom input for page reference string and frame count.
+- ⚙️ Choice of algorithm: FIFO, LRU, or Optimal.
+- 📈 Step-by-step visualization of page insertion and replacement.
+- 🧮 Display of total page faults and page hits.
+
+---
+
+## 🧪 Learning Outcomes
+
+Through this project, I learned:
+
+- How OS-level memory management algorithms work under the hood.
+- Algorithm implementation logic for FIFO, LRU, and Optimal.
+- DOM-based visualization and front-end UI logic in pure JavaScript.
+- Designing educational tools that improve algorithm intuition.
+
+---
+
+## 📬 Contact
+
+For suggestions or feedback, feel free to reach out:
+
+**Preet Patel**  
+🔗 [LinkedIn](https://www.linkedin.com/in/patelpreet25)
+
+---
+
+⭐ If you found this helpful or insightful, consider starring the repository!
